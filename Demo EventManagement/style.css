@@ -1,0 +1,136 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header and Navigation */
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+/*Navigation bar*/
+nav{
+    background-color: #2f702b;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 7px;
+    border-left: 10px solid yellow;
+    border-right: 10px solid yellow;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content:center;
+    padding: 5PX 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 8px 15px;
+    margin: 0 15px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #ffcc00;
+    color: #003366;
+    border-radius: 5px;
+    
+} 
+
+/* Content Styling */
+main {
+    padding: 20px;
+}
+
+.update-card, .event-card {
+    background: #f9f9f9;
+    margin: 10px 0;
+    padding: 15px;
+    border: 1px solid #ddd;
+}
+
+/* Form Styling */
+.container{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 7px;
+}
+form label {
+    display: block;
+    margin-top: 10px;
+}
+
+form input, form select, form textarea, form button {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+input[type=submit]{
+    background-color: #15a148;
+    color: white;
+    font-weight: bold;
+    border-radius: 3px;
+}
+input[type=submit]:hover{
+    background-color: #2f702b;
+}
+
+/*Event page*/
+.h2-event{
+    text-align: center;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 2px solid blue;
+}
+/*table*/
+table, th, td{
+    border-collapse: collapse;
+}
+th, td{
+    border:1px solid #6262ab;
+    padding: 15px;
+}
+table{
+    width:100%;
+}
+th{
+    background-color: #15a148;
+    color: white;
+}
+table tr:nth-child(even){
+    background-color: #a2a2b5;
+}
+table tr:hover{
+    background-color: aquamarine;
+}
+
+/*footer*/
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 40px 0;
+    margin-top: 50px;
+}

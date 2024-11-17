@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apply for Event</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Event Management System</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="event.html">Events</a>
+                </li>
+                <li>
+                    <a href="apply.html">Apply for Event</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact Us</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h2 style="text-align: center;">Apply for Event</h2>
+        <form id="applyForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="event">Select Event:</label>
+            <select id="event" name="event">
+                <option value="workshop">Workshop on AI</option>
+                <option value="symposium">Tech Symposium</option>
+                <option value="design">Training on Web Design</option>
+            </select>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea>
+
+            <input type="submit" value="Apply">
+        </form>
+    </main>
+    <footer>
+        &copy; AB Charlie -  All right reserved.
+    </footer>
+</body>
+</html>
